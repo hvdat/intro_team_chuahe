@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Source+Sans+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Giới thiệu thành viên nhóm</title>
+    <style>
+      html {
+        height: 100%;
+        font-family: "Roboto", sans-serif;
+        background: linear-gradient(135deg, #e94057, #f27121);
+      }
+      body {
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+        font-family: "Source Sans Pro", sans-serif;
+        letter-spacing: 3px;
+      }
+      table {
+        margin: 0 auto;
+        border-radius: 25px;
+        padding: 15px;
+        width: 80%;
+        height: 500px;
+        background-color: rgb(245, 245, 245);
+        -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.22);
+        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.22);
+      }
+      th,
+      td {
+        text-align: center;
+        border-bottom: 1px solid rgb(221, 221, 221);
+      }
+      img {
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>NHÓM CHÚA HỀ</h1>
+      <table class="overview-table">
+        <tr>
+          <th>Mã Số Sinh Viên</th>
+          <th>Họ Tên</th>
+          <th>Ảnh Đại Diện</th>
+        </tr>
+        <tr>
+          <td>19127558</td>
+          <td>BÙI PHÚ THỊNH</td>
+          <td>
+            <img
+              src="members\19127558\images\19127558.jpg"
+              alt="Bui Phu Thinh"
+              usemap="#map1"
+            />
+
+            <map name="map1">
+              <area
+                alt="Thinh's face"
+                href="members\19127558\19127558.html"
+                coords="70,99,129,10"
+                shape="rect"
+              />
+            </map>
+          </td>
+        </tr>
+
+        <tr>
+          <td>19127352</td>
+          <td>HỒ VẠN ĐẠT</td>
+          <td>
+            <img
+              src="members\19127352\images\19127352.jpg"
+              alt="Ho Van Dat"
+              usemap="#map2"
+            />
+
+            <map name="map2">
+              <area
+                alt="Dat's face"
+                href="members\19127352\19127352.html"
+                coords="76,80,53"
+                shape="circle"
+              />
+            </map>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
